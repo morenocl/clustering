@@ -3,7 +3,8 @@
  Catedra: Text mining, FAMAF 2021
 
 Se realiza un clustering de palabras.
-- Corpus: diagnósticos médicos provenientes de (IberLef-meddoprof)[https://temu.bsc.es/meddoprof/]
+- Corpus: diagnósticos médicos provenientes de [IberLef-meddoprof](https://temu.bsc.es/meddoprof/)  
+
 
 Se obtienen varios conjuntos de cluster, diferencados en el tamaño del entorno que se toma de cada palabra.  
 Trabajo restante:
@@ -28,6 +29,6 @@ _, _, key_words_1_1, _, matrix_dicc2d_1_1, new_words_1_1 = load_files(1, 1)
 _, _, key_words_2_2, _, matrix_dicc2d_2_2, new_words_2_2 = load_files(2, 2)
 _, _, key_words_5_5, _, matrix_dicc2d_5_5, new_words_5_5 = load_files(5, 5)
 ```
-
+Luego solo resta grafigar y comparar listar de clusters descomentando en las ultimas celdas.  
 
 Si desea explorar distintos números de clusters y/o entornos sentase libre de hacerlo.
